@@ -19,7 +19,7 @@ optional arguments:
   --endpoint ENDPOINT, -e ENDPOINT
                         specify a specific cmdbin endpoint. defaults to https://cmdbin.cc.""",
     packages = ["cmdbin"],
-    license = "BSD-3 Clause"
+    license = "BSD-3 Clause",
     install_requires = ["requests"],
     entry_points = {
         "console_scripts": [
